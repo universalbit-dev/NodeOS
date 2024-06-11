@@ -12,7 +12,7 @@
 #or to zero if all commands of the pipeline exit successfully.
 set -o pipefail
 
-NODESOURCE=https://deb.nodesource.com/setup_6.x
+NODESOURCE=https://deb.nodesource.com/setup_20.x
 
 if [ -f /etc/redhat-release ]; then
 PKGMGR='yum'
